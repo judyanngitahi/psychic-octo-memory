@@ -54,8 +54,9 @@ estimates store fixed
 quietly xtreg $ylist $xlist, re
 estimates store random
 
-hausman fixed random
+hausman fixed random 
 
+ *end 
 
 
 
